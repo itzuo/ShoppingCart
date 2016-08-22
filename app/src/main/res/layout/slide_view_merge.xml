@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<merge xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent" >  
+  
+    <LinearLayout  
+        android:id="@+id/view_content"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:orientation="horizontal" >  
+    </LinearLayout>  
+    <LinearLayout  
+        android:id="@+id/holder"  
+        android:layout_width="@dimen/width_"  
+        android:layout_height="match_parent"   
+        android:orientation="horizontal"
+        android:clickable="true" >  
+  
+        <!-- <TextView  
+            android:id="@+id/shenhe"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"  
+            android:layout_centerInParent="true" 
+            android:layout_weight="1" 
+            android:gravity="center" 
+            android:background="#6aaee1" 
+            android:text="审核"  
+            android:textColor="#fff" /> -->  
+            <TextView  
+            android:id="@+id/back"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"  
+            android:background="#f27474"
+            android:gravity="center"  
+            android:text="删除"  
+            android:textColor="#fff" /> 
+    </LinearLayout>  
+</merge>  
